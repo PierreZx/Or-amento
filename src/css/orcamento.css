@@ -635,10 +635,18 @@ section {
 }
 
 .disclaimer {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 0.85rem;
     color: var(--text-secondary);
     font-style: italic;
+    border-top: 1px solid rgba(0, 168, 132, 0.2);
+    padding-top: 1rem;
+}
+
+.disclaimer p:first-child {
+    color: var(--accent-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
 }
 
 .texto {
